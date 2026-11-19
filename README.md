@@ -19,3 +19,14 @@ in hourly buckets, and shows the result as a time series you can browse.
 - **Site:** [mainnet](https://dire-states.github.io/filecoin-message-mix/?net=mainnet) · [calibnet](https://dire-states.github.io/filecoin-message-mix/)
 - **Source:** [filecoin-message-mix](https://github.com/dire-states/filecoin-message-mix)
 - **Data:** [mainnet](https://github.com/dire-states/filecoin-message-mix-data-main) · [calibnet](https://github.com/dire-states/filecoin-message-mix-data-calibration). These are daily and hourly CSV files of message counts per method, updated several times a day.
+
+### public-mpool
+
+What's waiting to get on chain? public-mpool watches the Filecoin mainnet mempool through public RPC
+nodes (Glif, Zondax, dRPC, Ankr) while the page is open. It lists pending messages with their fees,
+age and full JSON, charts mempool size and premiums, measures how long messages wait before inclusion,
+and shows how each node's mempool differs.
+
+- **Site:** [mainnet](https://dire-states.github.io/filecoin-public-mpool/)
+- **Source:** [filecoin-public-mpool](https://github.com/dire-states/filecoin-public-mpool)
+- **Data:** none stored. The page polls the nodes from your browser and shows only what happened since you opened it.
