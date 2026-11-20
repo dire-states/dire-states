@@ -20,6 +20,16 @@ in hourly buckets, and shows the result as a time series you can browse.
 - **Source:** [filecoin-message-mix](https://github.com/dire-states/filecoin-message-mix)
 - **Data:** [mainnet](https://github.com/dire-states/filecoin-message-mix-data-main) · [calibnet](https://github.com/dire-states/filecoin-message-mix-data-calibration). These are daily and hourly CSV files of message counts per method, updated several times a day.
 
+### fil-release
+
+When is locked FIL released? fil-release reads every miner's vesting block rewards and the initial
+pledge of each live sector on mainnet and calibnet, and shows when they unlock: per miner, per day,
+and for the whole network.
+
+- **Site:** [mainnet](https://dire-states.github.io/filecoin-fil-release/) · [calibnet](https://dire-states.github.io/filecoin-fil-release/?net=calibnet)
+- **Source:** [filecoin-fil-release](https://github.com/dire-states/filecoin-fil-release)
+- **Data:** [mainnet](https://github.com/dire-states/filecoin-fil-release-data-main) · [calibnet](https://github.com/dire-states/filecoin-fil-release-data-calibration). These are snapshots of every miner's vesting schedule and sector pledge release dates, updated 4 times a day.
+
 ### public-mpool
 
 What's waiting to get on chain? public-mpool watches the Filecoin mainnet mempool through public RPC
