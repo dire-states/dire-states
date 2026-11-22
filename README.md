@@ -28,7 +28,7 @@ and for the whole network.
 
 - **Site:** [mainnet](https://dire-states.github.io/filecoin-fil-release/) · [calibnet](https://dire-states.github.io/filecoin-fil-release/?net=calibnet)
 - **Source:** [filecoin-fil-release](https://github.com/dire-states/filecoin-fil-release)
-- **Data:** [mainnet](https://github.com/dire-states/filecoin-fil-release-data-main) · [calibnet](https://github.com/dire-states/filecoin-fil-release-data-calibration). These are snapshots of every miner's vesting schedule and sector pledge release dates, updated 4 times a day.
+- **Data:** [mainnet](https://github.com/dire-states/filecoin-fil-release-data-main) · [calibnet](https://github.com/dire-states/filecoin-fil-release-data-calibration). These are snapshots of every miner's vesting schedule and sector pledge release dates, updated once a day.
 
 ### public-mpool
 
