@@ -8,7 +8,7 @@ extends.
 
 - **Site:** [mainnet](https://dire-states.github.io/filecoin-sector-spiegel/?net=mainnet) · [calibnet](https://dire-states.github.io/filecoin-sector-spiegel/)
 - **Source:** [filecoin-sector-spiegel](https://github.com/dire-states/filecoin-sector-spiegel)
-- **Data:** [mainnet](https://github.com/dire-states/filecoin-sector-spiegel-data-main) · [calibnet](https://github.com/dire-states/filecoin-sector-spiegel-data-calibration). These are snapshots of every miner's live sectors, updated several times a day.
+- **Data:** [mainnet](https://github.com/dire-states/filecoin-sector-spiegel-data-main) · [calibnet](https://github.com/dire-states/filecoin-sector-spiegel-data-calibration). These are snapshots of every miner's live sectors, updated once a day.
 
 ### message-mix
 
@@ -18,7 +18,7 @@ in hourly buckets, and shows the result as a time series you can browse.
 
 - **Site:** [mainnet](https://dire-states.github.io/filecoin-message-mix/?net=mainnet) · [calibnet](https://dire-states.github.io/filecoin-message-mix/)
 - **Source:** [filecoin-message-mix](https://github.com/dire-states/filecoin-message-mix)
-- **Data:** [mainnet](https://github.com/dire-states/filecoin-message-mix-data-main) · [calibnet](https://github.com/dire-states/filecoin-message-mix-data-calibration). These are daily and hourly CSV files of message counts per method, updated several times a day.
+- **Data:** [mainnet](https://github.com/dire-states/filecoin-message-mix-data-main) · [calibnet](https://github.com/dire-states/filecoin-message-mix-data-calibration). These are daily and hourly CSV files of message counts per method, updated once a day.
 
 ### fil-release
 
